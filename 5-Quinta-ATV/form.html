@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta lang="pt-BR" />
+    <meta charset="UTF-8" />
+    <title>Form</title>
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://sejaalphaedtech.org.br/images/favicon/favicon-16x16.png">
+</head>
+
+<body>
+    <form action="/example" >
+
+        <fieldset id="cadastro" >
+            <legend>Cadastro</legend>
+            <p>
+                <label for="cadastro">Name: </label>
+                <input type="text" size="50%" id="cadastro" name="name">
+                <br />
+                <label for="cadastro">Endereço:</label>
+                <input type="text" id="cadastro" name="endereco" size="47">
+            </p>
+            <p>
+                <input type="submit" value="Cadastrar" id="cadastro" />
+                <input type="reset" value="Cancelar">
+            </p>  
+        
+        </fieldset>
+
+        <fieldset>
+            <legend>Pedido</legend>
+            <p>
+                <input type="checkbox" id="arroz">
+                <label for="arroz"><b>Arroz</b></label>
+            </p>
+            <p>
+                <input type="checkbox" id="feijao">
+                <label for="feijao"><b>Feijão</b></label>
+            </p>
+            <p>
+                <input type="checkbox" id="bife">
+                <label for="bife"><b>Bife</b></label>
+            </p>
+            Deixe aqui sua sugestão de cardápio:<br />
+            <textarea></textarea>
+        </fieldset>
+    </form>
+</body>
+
+</html>
