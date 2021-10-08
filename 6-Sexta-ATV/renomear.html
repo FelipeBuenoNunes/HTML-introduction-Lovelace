@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olimpíadas</title>
+    <style>
+        img.centralizar
+        {
+            margin-left: 30%;
+        }
+        legend
+        {
+            color: white;
+        }
+        p.resumo
+        {
+            text-align: center;
+            width: 50%;
+            margin-left: 25%;
+        }
+        h2
+        {
+            text-align: center;
+        }
+        p
+        {
+            font: 1em sans-serif;
+        }
+    </style>
+</head>
+<body style="background-color: #979797">
+    <h1>Formulário Ollimpíadas</h1>
+    <fieldset style="background-color: #494949">
+        <p>
+                <img class="centralizar" src="https://i.ibb.co/mq7WPR0/jogos-olimpicos.png" alt="jogos-olimpicos" />
+        </p>
+        <h2>Pequeno resumo do que é Olimpíadas:</h2>
+        <p class="resumo" >
+            A cada quatro anos, atletas de centenas de países se reúnem num país sede para disputarem um conjunto de modalidades esportivas. A própria bandeira olímpica representa essa união de povos e raças, pois é formada por cinco anéis entrelaçados, representando os cinco continentes e suas cores. A paz, a amizade e o bom relacionamento entre os povos e o espírito olímpico são os princípios dos jogos olímpicos.
+        </p>
+        <br />
+        <fieldset>
+            <legend>Escolha</legend>
+            <p>Qual seu esporte preferio?</p>
+            <input type="text" placeholder="ex: Futebol" style="background-color: #a5a5a5"/>
+            <p>
+                Porquê?
+                <p>
+                    <textarea cols="30" rows="5"></textarea>
+                </p>    
+            </p>
+        </fieldset>
+        
+        <fieldset>
+            <legend><b>Informações</b></legend>
+            <form action="/teste">
+                <p>
+                <label for="nome">Nome:</label>
+                <br />
+                <input type="text" id="nome" style="background-color: #a5a5a5;" name="name"/>
+                </p>
+                <p>
+                <label for="contato"> Email:</label>
+                <br />
+                <input type="text" id="contato" style="background-color: #a5a5a5;" name="contact" />
+                <br />
+                <input type="checkbox" id="aceita" checked/>
+                <label for="aceita">Aceita receber Email?</label>
+                </p>
+                <input type="submit" id="btSubContact" value="Enviar resposta"/>  
+
+                
+            </form>
+        </fieldset>
+    </fieldset>
+</body>
+</html>
